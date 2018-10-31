@@ -152,10 +152,12 @@ public class estanteriaCarga {
         }
     }
 
+    /* Todos los calculos estan hechos en unidades */
+
     public void calcularCantidades(Boolean acero_inoxidable){
         this.cant_parales =
-                (Integer.valueOf(this.cuerpos) + 1) * Integer.valueOf(this.modulos) +
-                (Integer.valueOf(this.cuerpos) + 1) * Integer.valueOf(this.modulos) * (Integer.valueOf(this.fondo) - 1) / 2;
+                (Integer.valueOf(this.cuerpos) + 1) * Integer.valueOf(this.modulos) * 2 +
+                (Integer.valueOf(this.cuerpos) + 1) * Integer.valueOf(this.modulos) * (Integer.valueOf(this.fondo) - 1);
         this.cant_cuadro =
                 Integer.valueOf(this.niveles) *  Integer.valueOf(this.cuerpos) *
                 Integer.valueOf(this.modulos) * Integer.valueOf(this.fondo);

@@ -287,13 +287,15 @@ public class estanteriaCanastillas {
         }
     }
 
+    /* Todos los calculos estan hechos en unidades */
+
     public void calcularCantidades(Boolean acero_inoxidable, Boolean costado){
         this.cant_parales =
-                (Integer.valueOf(this.cuerpos) + 1) * Integer.valueOf(this.modulos) ;
+                (Integer.valueOf(this.cuerpos) + 1) * Integer.valueOf(this.modulos) * 2;
         this.cant_cuadroU =
-                Float.valueOf(this.cuadroU) *  Float.valueOf(this.cuerpos) * Float.valueOf(this.modulos) / 2;
+                Float.valueOf(this.cuadroU) *  Float.valueOf(this.cuerpos) * Float.valueOf(this.modulos);
         this.cant_travesanos =
-                (Integer.valueOf(this.posiciones) - Integer.valueOf(this.cuadroU)) * Integer.valueOf(this.cuerpos) * Integer.valueOf(this.modulos);
+                (Integer.valueOf(this.posiciones) - Integer.valueOf(this.cuadroU)) * Integer.valueOf(this.cuerpos) * Integer.valueOf(this.modulos) * 2;
         this.cant_tornillos_40 =
                 6 * Integer.valueOf(this.posiciones) * Integer.valueOf(this.modulos) ;
         this.cant_tornillos_60 =

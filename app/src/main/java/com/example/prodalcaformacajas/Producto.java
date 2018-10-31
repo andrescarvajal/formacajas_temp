@@ -42,20 +42,20 @@ public class Producto {
 
     // Estanteria canastillas (convencional)
 
-    public static Producto paral_090 = new Producto("Parales 0,90 m", "25412", "TL088", "Par");
-    public static Producto paral_146 = new Producto("Parales 1,46 m", "36127", "TL145", "Par");
-    public static Producto paral_194 = new Producto("Parales 1,94 m", "42557", "TL099", "Par");
-    public static Producto paral_240 = new Producto("Parales 2,40 m", "64918", "TL013", "Par");
-    public static Producto cuadro_u = new Producto("Cuadro unión", "45159", "TL100", "Par");
-    public static Producto travesano = new Producto("Travesaño", "15003", "TL146", "Par");
+    public static Producto paral_090 = new Producto("Parales 0,90 m",   "12706", "TL088", "Unidad");
+    public static Producto paral_146 = new Producto("Parales 1,46 m",   "18063", "TL145", "Unidad");
+    public static Producto paral_194 = new Producto("Parales 1,94 m",   "21279", "TL099", "Unidad");
+    public static Producto paral_240 = new Producto("Parales 2,40 m",   "32459", "TL013", "Unidad");
+    public static Producto cuadro_u = new Producto("Cuadro unión",      "22580", "TL100", "Unidad");
+    public static Producto travesano = new Producto("Travesaño",        "7501", "TL146", "Unidad");
 
     public static Producto bota_cuadrada = new Producto("Bota cuadrada de 3/4", "126", "MP065", "Unidad");
-    public static Producto tapon_cuadrado = new Producto("Tapon de 3/4", "126", "MP097", "Unidad");
+    public static Producto tapon_cuadrado = new Producto("Tapon de 3/4",        "126", "MP097", "Unidad");
 
-    public static Producto cuadro_u_doble = new Producto("Cuadro union doble", "69102", "TL158", "Par");
-    public static Producto travesano_doble = new Producto("Travesaños dobles", "22533", "TL159", "Par");
-    public static Producto cuadro_u_costado = new Producto("Cuadro unión costado", "53580", "TL171", "Par");
-    public static Producto travesano_costado = new Producto("Travesaño costado", "14389", "TL170", "Par");
+    public static Producto cuadro_u_doble = new Producto("Cuadro union doble",      "34551", "TL158", "Unidad");
+    public static Producto travesano_doble = new Producto("Travesaños dobles",      "11266", "TL159", "Unidad");
+    public static Producto cuadro_u_costado = new Producto("Cuadro unión costado",  "26790", "TL171", "Unidad");
+    public static Producto travesano_costado = new Producto("Travesaño costado",    "7195", "TL170", "Unidad");
 
     public static Producto cuadro_ext_est_m_1 = new Producto("Cuadro ext. est. m. de 1", "56333", "TL021", "Unidad");
     public static Producto cuadro_ext_est_m_2 = new Producto("Cuadro ext. est. m. de 2", "81119", "TL027", "Unidad");
@@ -80,17 +80,18 @@ public class Producto {
 
     // Estanteria canastillas (acero inoxidable)
 
-    public static Producto paral_090_inox = new Producto("Parales 0,90 m", "123164", "", "Par");
-    public static Producto paral_146_inox = new Producto("Parales 1,46 m", "123164", "", "Par");
-    public static Producto paral_194_inox = new Producto("Parales 1,94 m", "123164", "", "Par");
-    public static Producto paral_240_inox = new Producto("Parales 2,40 m", "195952", "", "Par");
-    public static Producto cuadro_u_inox = new Producto("Cuadro unión inoxidable", "137195", "", "Par");
-    public static Producto travesano_inox = new Producto("Travesaño inoxidable", "26504", "", "Par");
+    public static Producto paral_090_inox = new Producto("Parales 0,90 m", "61582", "", "Unidad");
+    public static Producto paral_146_inox = new Producto("Parales 1,46 m", "61582", "", "Unidad");
+    public static Producto paral_194_inox = new Producto("Parales 1,94 m", "61582", "", "Unidad");
+    public static Producto paral_240_inox = new Producto("Parales 2,40 m", "97976", "", "Unidad");
+
+    public static Producto cuadro_u_inox = new Producto("Cuadro unión inoxidable",  "68598", "", "Unidad");
+    public static Producto travesano_inox = new Producto("Travesaño inoxidable",    "13252", "", "Unidad");
 
     // Estanteria carga
 
-    public static Producto paral_194_carga = new Producto("Paral carga 1,94 m", "55876", "TL147", "Par");
-    public static Producto paral_240_carga = new Producto("Paral carga 2,40 m", "74877", "TL111", "Par");
+    public static Producto paral_194_carga = new Producto("Paral carga 1,94 m", "27938", "TL147", "Unidad");
+    public static Producto paral_240_carga = new Producto("Paral carga 2,40 m", "37438", "TL111", "Unidad");
 
     public static Producto cuadro_carga_40_90 = new Producto("Cuadro carga de 40 x 90",     "48717", "TL108", "Unidad");
     public static Producto cuadro_carga_52_90 = new Producto("Cuadro carga de 52 x 90",     "53350", "TL151", "Unidad");
@@ -102,8 +103,8 @@ public class Producto {
 
     // Estanteria carga (inoxidable)
 
-    public static Producto paral_194_carga_inox = new Producto("Paral carga 1,94 m inox",      "216707", "", "Par");
-    public static Producto paral_240_carga_inox = new Producto("Paral carga 2,40 m inox",      "216707", "", "Par");
+    public static Producto paral_194_carga_inox = new Producto("Paral carga 1,94 m inox",      "108353", "", "Unidad");
+    public static Producto paral_240_carga_inox = new Producto("Paral carga 2,40 m inox",      "108353", "", "Unidad");
     public static Producto cuadro_carga_60_90_I = new Producto("Cuadro carga de 60 x 90 Inox", "230738", "", "Unidad");
 
     // Tonilleria (comun)

@@ -198,7 +198,7 @@ public class CalcularEstanteriaCanastillas extends AppCompatActivity implements 
                 break;
 
             case R.id.masCuerpos:
-                if(contador_cuerpos < 60) {
+                if(contador_cuerpos < 99) {
                     contador_cuerpos = contador_cuerpos + 1;
                     estanteria.actCuerpos(Integer.toString(contador_cuerpos));
                 }
