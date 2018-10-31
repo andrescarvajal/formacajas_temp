@@ -17,7 +17,7 @@
 <dimen name="size_value_layout_variable">60dp</dimen> <!-- Tamaño del valor del parametro (canastillas) -->
 <dimen name="size_value_layout_variable_carga">90dp</dimen> <!-- Tamaño del valor del parametro (carga) -->
 
-<dimen name="size_accessorio_layout_variable">170dp</dimen> <!-- Tamaño del valor del layout accesorio -->
+<dimen name="size_accessorio_layout_variable">180dp</dimen> <!-- Tamaño del valor del layout accesorio -->
 
 <dimen name="size_button_variable">27dp</dimen> <!-- tamaño del boton aumentar (+) o disminuir (-) -->
 <dimen name="size_text_button_variable">15sp</dimen> <!-- tamaño del texto en el boton aumentar (+) o disminuir (-) -->
