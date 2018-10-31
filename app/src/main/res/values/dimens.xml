@@ -25,7 +25,7 @@
 <dimen name="size_button_calcular_variable">250dp</dimen>   <!-- tamaño del boton calcular -->
 <dimen name="size_text_button_calcular_variable">17sp</dimen>  <!-- SIN USAR!!!! ??? -->
 
-<dimen name="size_text_resultado_variable">20sp</dimen>    <!-- tamaño del texto de resultado -->
+<dimen name="size_text_resultado_variable">24sp</dimen>    <!-- tamaño del texto de resultado -->
 <dimen name="size_text_resultado_layout_variable">250dp</dimen> <!-- tamaño del layout de resultado -->
 
 <dimen name="size_titulos_secciones_variable">24sp</dimen> <!-- Titulos texto -->
