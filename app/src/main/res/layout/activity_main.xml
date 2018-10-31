@@ -44,7 +44,7 @@
         android:onClick="menuEstCanastillas"
         android:text="Canastillas"
         android:textAllCaps="false"
-        android:textSize="@dimens/size_text_variable"></Button>
+        android:textSize="@dimen/size_text_variable"></Button>
 
     <Button
         android:id="@+id/btnMenuCarga"
@@ -63,7 +63,7 @@
         android:onClick="menuEstCarga"
         android:text="Carga"
         android:textAllCaps="false"
-        android:textSize="@dimens/size_text_variable"></Button>
+        android:textSize="@dimen/size_text_variable"></Button>
 
     <ImageView
         android:layout_width="wrap_content"

@@ -11,24 +11,24 @@
 
 <!-- Tamaño para celulares medianos -->
 
-<dimen name="size_text_variable">13sp</dimen> <!-- Tamaño del texto de los parametros ingresados por el usuario y su valor -->
+<dimen name="size_text_variable">22sp</dimen> <!-- Tamaño del texto de los parametros ingresados por el usuario y su valor -->
 <dimen name="size_text_layout_variable">150dp</dimen> <!-- Tamaño del layout donde esta este texto -->
 
 <dimen name="size_value_layout_variable">60dp</dimen> <!-- Tamaño del valor del parametro (canastillas) -->
 <dimen name="size_value_layout_variable_carga">90dp</dimen> <!-- Tamaño del valor del parametro (carga) -->
 
-<dimen name="size_accessorio_layout_variable">280dp</dimen> <!-- Tamaño del valor del parametro canastillas -->
+<dimen name="size_accessorio_layout_variable">170dp</dimen> <!-- Tamaño del valor del layout accesorio -->
 
-<dimen name="size_button_variable">30dp</dimen> <!-- tamaño del boton aumentar (+) o disminuir (-) -->
+<dimen name="size_button_variable">27dp</dimen> <!-- tamaño del boton aumentar (+) o disminuir (-) -->
 <dimen name="size_text_button_variable">15sp</dimen> <!-- tamaño del texto en el boton aumentar (+) o disminuir (-) -->
 
 <dimen name="size_button_calcular_variable">250dp</dimen>   <!-- tamaño del boton calcular -->
-<dimen name="size_text_button_calcular_variable">15sp</dimen>  <!-- SIN USAR!!!! ??? -->
+<dimen name="size_text_button_calcular_variable">17sp</dimen>  <!-- SIN USAR!!!! ??? -->
 
 <dimen name="size_text_resultado_variable">20sp</dimen>    <!-- tamaño del texto de resultado -->
 <dimen name="size_text_resultado_layout_variable">250dp</dimen> <!-- tamaño del layout de resultado -->
 
-<dimen name="size_titulos_secciones_variable">15sp</dimen> <!-- Titulos texto -->
+<dimen name="size_titulos_secciones_variable">24sp</dimen> <!-- Titulos texto -->
 
 
 
